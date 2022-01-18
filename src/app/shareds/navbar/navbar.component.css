@@ -1,0 +1,30 @@
+.navbar{
+    background-color: #f0a6de;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: 50px;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.titulo-menu-p{
+    margin-left: 4px;
+    color: #b0188a;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "nautigal-bold";
+}
+
+.titulo-menu{
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "nautigal-regular";
+}
+
+.navbar-img{
+    height: 30px;
+    margin-left: 20px;
+}

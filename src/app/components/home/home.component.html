@@ -1,0 +1,18 @@
+<app-navbar></app-navbar>
+
+<div class="fondo-lista">
+    <div class="item-lista" *ngFor="let p of productos">
+
+        <div class="item-lista-textos">
+            <p class="item-lista-texto nombre-producto">{{p.nombre}}</p>
+            <p class="item-lista-texto">{{p.categoria}}</p>
+            <p class="item-lista-texto">{{p.precio | currency}}</p>
+        </div>
+
+        <div class="">
+            <img class="item-lista-contenido-img" src={{p.img}} alt="">
+        </div>
+    </div>
+   
+
+</div>
