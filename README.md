@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## How to deploy in github pages
+
+`git status`
+
+`git branch -M main`
+
+`git status`
+
+`git remote add origin ${your_repository_link}`
+
+`git push -u origin main`
+
+`npm install -g angular-cli-ghpages`
+
+`ng build --base-href="https://alejcyber.github.io/rous-market/"`
+
+`ngh --dir=dist/rous-market`
+
